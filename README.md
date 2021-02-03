@@ -3,7 +3,7 @@
 Primer : Dajte VIP status igraču koji je donirao određenu sumu novca za pomoć zajednici kako bi mogao da pristupi VIP AUTO SALONU.
 
 
-Admin komande : /dajvip & /izbrisivip
+Admin komande : /dajvip & /uklonivip
 
 
 					ESX.TriggerServerCallback('heineken_vip:getVIPStatus', function(isVIP)
