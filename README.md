@@ -1,6 +1,6 @@
-# FiveM VIP Sistem za ESX 1.2
+## FiveM VIP Sistem za ESX 1.2
 
-Primer : Dajte VIP status igraču koji je donirao određenu sumu novca za pomoć zajednici kako bi mogao da pristupi VIP AUTO SALONU.
+# Primer : Dajte VIP status igraču koji je donirao određenu sumu novca za pomoć zajednici kako bi mogao da pristupi VIP AUTO SALONU.
 
 
 Admin komande : /dajvip & /uklonivip
