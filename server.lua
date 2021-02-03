@@ -42,7 +42,7 @@ AddEventHandler('heineken_vip:setVIPStatus', function(vip)
 end)
 
 
-ESX.RegisterCommand('addvip', 'admin', function(xPlayer, args, showError)
+ESX.RegisterCommand('dajvip', 'admin', function(xPlayer, args, showError)
 	args.playerId.triggerEvent('heineken_vip:addVIPStatus')
 	TriggerClientEvent('chat:addMessage', -1, {
 		template = '<div style="padding: 0.5vw; margin: 0.5vw; background-color: rgba(158, 35, 35, 0.4); border-radius: 3px;"><i class="fas fa-globe"></i> <b>[Igrac je dodan kao VIP]</b></i></div>'
@@ -51,7 +51,7 @@ end, true, {help = 'dodajte vip igracu', validate = true, arguments = {
 	{name = 'playerId', help = 'The player id', type = 'player'}
 }})
 
-ESX.RegisterCommand('delvip', 'admin', function(xPlayer, args, showError)
+ESX.RegisterCommand('sklonivip', 'admin', function(xPlayer, args, showError)
 	args.playerId.triggerEvent('heineken_vip:removeVIPStatus')
 	TriggerClientEvent('chat:addMessage', -1, {
 		template = '<div style="padding: 0.5vw; margin: 0.5vw; background-color: rgba(158, 35, 35, 0.4); border-radius: 3px;"><i class="fas fa-globe"></i> <b>[Igracu je uklonjen VIP]</b></i></div>'
